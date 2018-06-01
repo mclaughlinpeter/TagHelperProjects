@@ -4,7 +4,7 @@ namespace Cities.Infrastructure.TagHelpers
 {
     public class ButtonTagHelper : TagHelper
     {
-        public int BsButtonColor { get; set; }
+        public string BsButtonColor { get; set; }
 
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
